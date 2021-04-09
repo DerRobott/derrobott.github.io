@@ -3,12 +3,113 @@
     <head>
       <link rel="icon" href="iconn.png" sizes="16x16 32x32" type="image/png">
         <body background="backgroundd.png">
+          <meta charset="UTF-8">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+          <style>
+              body{
+                  font-family: "Roboto", sans-serif;
+                  text-align: center;
+                  margin: 0;
+                  padding:0;
+                  background
+                  
+              }
+              header{
+                  background: rgb(32, 32, 32);
+                  transition: all 0.3s ease;
+                  padding: 0 20px 20px 20px;
+                  border-radius: 0 0 15px 15px;
+              }
+              ul{
+                  margin: 0;
+                  padding: 0;
+                  list-style-type: none;
+                  transition: all 0.3s ease;
+              }
+              #headname{
+                  padding: 30px 0 0 0;
+                  font-size: 50px;
+                  color: whitesmoke;
+              }
+              .navli{
+                    display:inline-block;
+              }
+              .nava{
+                  transition: all 0.1s ease;
+                  text-decoration: none;
+                  color: whitesmoke;
+                  display: inline;
+                  background: rgb(32, 32, 32);
+                  border-radius: 0 0 10px 10px;
+                  font-size: 22px;
+                  margin: 0 0 5px 0;
+                  padding: 15px 30px 10px 30px;
+                  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
+              }
+              .nava:hover{
+                  transition: all 0.4s ease-in-out;
+                  padding: 20px 30px 15px 30px;
+              }
+              
+              .navmain{
+                  position: fixed;
+                  top: -30px;
+                  left: 0;
+                  right: 0;
+                  transition: all 0.2s ease;
+                  padding: 0 0 35px 0;
+              }
+              .navmain:hover{
+                  transition: all 0.3s ease-in-out;
+                  padding: 0 0 10px 0;
+                  top: 10px;
+              }
+              .navli a:after{
+                  bottom: 0px;
+                  background: red;
+                  transform: translateY(-10px);
+              }
+              @media screen and (max-width: 1100px) {
+                  .nava{
+                      padding: 5px 15px 5px 15px;
+                  }
+              }
+              .content{
+                  color:white;
+              }
+              footer{
+                  background-color: rgb(110, 110, 110);
+                  text-align: center;
+                  padding: 10px;
+                  border-radius: 10px 10px 0 0 ;
+              }
+              .infos1{
+                  margin: 30px 20px 30px 20px;
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+                  justify-content: center;
+                  align-items: baseline;
+              }
+              .flexelement{
+                  margin: 0 20px 0 20px;
+                  padding: 15px;
+                  border-radius: 20px ;
+                  background-color: rgb(32, 32, 32);
+                  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+              }
+              .button{
+                  margin-top: 100px;
+                  border-radius: 5px;
+                  font-size: 15px;
+                  background: whitesmoke;
+              }
+          </style>
     </head>
       <title>DerRobot</title>
     <body style="font-family: sans-serif"></body>
 <body>
-<h1>Ich bin DerRobot</h1>
-<p> Und Ich Code,Spiele und mache sonstiges gerne</p>
+<section class="content"><a href="http://google.com"><button class="button">Eh hier geht es zu Google</button></a></section>
 </body>
-<a href="http://google.com"><button>Eh hier geht es zu Google</button></a>
+
 </html>
