@@ -49,6 +49,7 @@ footer{
     width: 100%;
     text-align: center;
     font-size: medium;
+    list-style: none;
 }
 .text1{
     margin-top: 0;
@@ -62,4 +63,24 @@ footer{
     height: auto;
     border-radius: 25px 25px 25px 25px;
     background-color: rgba(0, 195, 255, 0.836);
+}
+#twitterfoto{
+    width: 52px;
+}
+#redditfoto{
+    width: 52px;
+}
+#youtubefoto{
+    width: 52px;
+}
+#twitchfoto{
+    width: 52px;
+    border-radius: 50%;
+}
+#discordlogo{
+    width: 52px;
+}
+.twitch{
+    margin: 20px;
+    border-radius: 25px 25px 25px 25px;
 }
