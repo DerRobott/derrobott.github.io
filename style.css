@@ -46,6 +46,7 @@ footer{
     padding: 50px 20px;
     bottom: 0;
     position: fixed;
+    margin-top: -50px;
     width: 100%;
     text-align: center;
     font-size: medium;
