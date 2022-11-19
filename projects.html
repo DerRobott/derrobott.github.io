@@ -3,23 +3,31 @@
     <head>
       <link rel="icon" href="iconn.png" sizes="16x16 32x32" type="image/png">
           <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=0.8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="style.css">
     </head>
       <title>DerRobot</title>
     <body style="font-family: sans-serif"></body>
 <body>
-      <header class="titlebar">
-          <nav class="navi">
-            <a href="index.html">Home</a>
-            <a class="active" href="#@">Projects</a>
-            <a href="contact.html">Contact</a>
-          </nav>
-      </header>
+  <div class="navi" id="navii">
+    <a href="index.html" >Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="projects.html" class="active">All Projects</a>
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515">Blue Timerift Mod</a>
+      </div>
+    </div> 
+    <a href="socialmedia.html">Social Media</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
       <div class="text1pr">
-          <br>
-        There aren't currently any projects online!
-        <br><br>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515"><img id="btrfoto" src="btr.png"><br>Blue Timerift Mod <div class="autor">
+              By DerRobot
+            </div> </a>
       </div>
       <footer>
         <div class=footer1>
@@ -27,7 +35,7 @@
         <a href="https://www.reddit.com/u/DerRobott"><img id="redditfoto" src="reddit-logo.png"></a>
         <a href="https://www.youtube.com/derrobot"><img id="youtubefoto" src="youtube-logo.png"></a>
         <a href="https://www.twitch.tv/derrobott"><img id="twitchfoto" src="twitch-logo.png"></a>
-        <a href="https://discord.gg/nJgy7vgtyd"><img id="discordlogo" src="discord-logo.png"></a>
+        <a href="socialmedia.html"><img id="discordlogo" src="discord-logo.png"></a>
       </div>
       </footer>
 </body>

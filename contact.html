@@ -3,25 +3,34 @@
     <head>
       <link rel="icon" href="iconn.png" sizes="16x16 32x32" type="image/png">
           <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=0.8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="style.css">
     </head>
       <title>DerRobot</title>
     <body style="font-family: sans-serif"></body>
 <body>
-      <header class="titlebar">
-          <nav class="navi">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a class="active" href="#@">Contact</a>
+  <div class="navi" id="navii">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="projects.html" >All Projects</a>
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515">Blue Timerift Mod</a>
+      </div>
+    </div> 
+    <a href="socialmedia.html">Social Media</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>"active" href="#@">Contact</a>
           </nav>
       </header>
       <div class="text1">
         You can contact me via <a href="https://twitter.com/DerRobott">Twitter</a> or Discord! Alternative you can send me an E-mail!      </div>
         <br>
-    <div class="tenor-gif-embed" data-postid="16570099" data-share-method="host" data-aspect-ratio="1.19403" data-width="100%"><a href="https://tenor.com/view/cow-dancing-animal-gif-16570099">Cow Dancing GIF</a>from <a href="https://tenor.com/search/cow-gifs">Cow GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
         <br>
-        <div>
+        <div class="email">
         <form action="mailto:derrobott@gmail.com" method="post" enctype="text/plain">
          <input class="email" type="submit" value="Send me an Email!">
           </form></div>
@@ -31,7 +40,7 @@
         <a href="https://www.reddit.com/u/DerRobott"><img id="redditfoto" src="reddit-logo.png"></a>
         <a href="https://www.youtube.com/derrobot"><img id="youtubefoto" src="youtube-logo.png"></a>
         <a href="https://www.twitch.tv/derrobott"><img id="twitchfoto" src="twitch-logo.png"></a>
-        <a href="https://discord.gg/nJgy7vgtyd"><img id="discordlogo" src="discord-logo.png"></a>
+        <a href="socialmedia.html"><img id="discordlogo" src="discord-logo.png"></a>
       </div>
       </footer>
 </body>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="icon" href="iconn.png" sizes="16x16 32x32" type="image/png">
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="style.css">
+    </head>
+      <title>DerRobot</title>
+    <body style="font-family: sans-serif"></body>
+<body>
+  <div class="navi" id="navii">
+    <a href="index.html" >Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="projects.html">All Projects</a>
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515">Blue Timerift Mod</a>
+      </div>
+    </div> 
+    <a href="#socialmedia" class="active">Social Media</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div class="text1">
+    Hallo! Hier siehst du alle Links zu meinen Profilen auf den verschiedenen Social Media Plattformen.<br>
+        <a href="https://www.twitter.com/DerRobott"><img id="twitterfoto" src="twitter-logo.png">Twitter Profil</a><br>
+        <a href="https://www.reddit.com/u/DerRobott"><img id="redditfoto" src="reddit-logo.png">Reddit Profil</a><br>
+        <a href="https://www.youtube.com/derrobot"><img id="youtubefoto" src="youtube-logo.png">Youtube Kanal</a><br>
+        <a href="https://www.twitch.tv/derrobott"><img id="twitchfoto" src="twitch-logo.png">Twitch Account</a><br><br>
+        
+        <a><img id="discordlogo" src="discord-logo.png"><br>Discord Tag: "DerRobot#0389" ! </a>
+  </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("navii");
+          if (x.className === "navi") {
+            x.className += " responsive";
+          } else {
+            x.className = "navi";
+          }
+        }
+        </script>
+</body>
+</html>

@@ -3,51 +3,50 @@
     <head>
       <link rel="icon" href="iconn.png" sizes="16x16 32x32" type="image/png">
           <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=0.8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="style.css">
     </head>
       <title>DerRobot</title>
     <body style="font-family: sans-serif"></body>
 <body>
-      <header class="titlebar">
-         <div class="navi" id="navi1">
-           <a href="#home"class="active">Home</a>
-           <div class="dropdown">
-            <button class="dropbtn">Projects<i class="fa fa-caret.-down"></i></button>
-            <div class="dropdown-content">
-              <a href="projects.html">All Projects</a>
-              <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515">Blue TimeRift Mod</a>
-            </div>
-            </div>
-           <a href="contact.html">Contact</a>
-           </div>
-           <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#8776;</a>
-         </div>
-      </header>
-      <div class="text1">
-        This Website is under construction! The Style etc. can very each time the website will be updated
+  <div class="navi" id="navii">
+    <a href="#home" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="projects.html">All Projects</a>
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515">Blue Timerift Mod</a>
       </div>
-      <div class="twitter">
-        <a class="twitter-timeline" data-width="300" data-height="370" href="https://twitter.com/DerRobott?ref_src=twsrc%5Etfw">Tweets by DerRobott</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-      <footer>
+    </div> 
+    <a href="socialmedia.html">Social Media</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div class="text1">
+    Welcome to my Website! Please note that the Website is still under construction! -DerRobot
+  </div>
+  <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/DerRobott?ref_src=twsrc%5Etfw">Tweets by DerRobott</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <footer> 
         <div class=footer1>
         <a href="https://www.twitter.com/DerRobott"><img id="twitterfoto" src="twitter-logo.png"></a>
         <a href="https://www.reddit.com/u/DerRobott"><img id="redditfoto" src="reddit-logo.png"></a>
         <a href="https://www.youtube.com/derrobot"><img id="youtubefoto" src="youtube-logo.png"></a>
         <a href="https://www.twitch.tv/derrobott"><img id="twitchfoto" src="twitch-logo.png"></a>
-        <a href="https://discord.gg/nJgy7vgtyd"><img id="discordlogo" src="discord-logo.png"></a>
+        <a href="socialmedia.html"><img id="discordlogo" src="discord-logo.png"></a>
       </div>
       </footer>
       <script>
-        function myFunction(){
-          var x = document.getElementById("navi1");
-          if (x.className === "navi"){
-            x.className += "responsive";
-            } else {
-              x.className = "navi";
-            }
+        function myFunction() {
+          var x = document.getElementById("navii");
+          if (x.className === "navi") {
+            x.className += " responsive";
+          } else {
+            x.className = "navi";
+          }
         }
-      </script>
+        </script>
+        
 </body>
 </html>
