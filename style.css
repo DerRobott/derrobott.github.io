@@ -33,7 +33,7 @@ a{
 	vertical-align: middle;
 }
 #twitterfoto1{
-	margin-top: 10px;
+	margin-top: 20px;
    	width: 52px;
 }
 #redditfoto{
@@ -42,6 +42,7 @@ a{
 	vertical-align: middle;
 }
 #redditfoto1{
+    margin-top: 20px;
     width: 52px;
 }
 #youtubefoto{
@@ -49,6 +50,7 @@ a{
 	vertical-align: middle;
 }
 #youtubefoto1{
+    margin-top: 20px;
     width: 52px;
 }
 #twitchfoto{
@@ -57,6 +59,7 @@ a{
 	vertical-align: middle;
 }
 #twitchfoto1{
+    margin-top: 20px;
     width: 52px;
     border-radius: 50%;
 }
@@ -66,6 +69,7 @@ a{
 	vertical-align: middle;
 }
 #discordlogo1{
+    margin-top: 20px;
     width: 52px;
 }
 #mastodonfoto{
@@ -74,6 +78,7 @@ a{
 	vertical-align: middle;
 }
 #mastodonfoto1{
+    margin-top: 20px;
      width: 52px;
     border-radius: 50%;
 }
@@ -83,6 +88,7 @@ a{
 	vertical-align: middle;
 }
 #switchfoto1{
+    margin-top: 20px;
     width: 52px;
     border-radius: 50%;
 }
