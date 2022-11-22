@@ -8,12 +8,12 @@ html{
 	text-align: center;
 	vertical-align:middle;
 }
-body{
+body{ 
     margin: 0;
-	vertical-align: middle;
+	  vertical-align: middle;
 }
 a{
-vertical-align: middle;
+  vertical-align: middle;
 }
 .footer1{
     display: block;
@@ -72,6 +72,7 @@ vertical-align: middle;
     font-size: x-large;
     color: white;
     font-family: Calibri;
+    text-align: left;
 }
 .text1pr{
   background-color: rgba(143, 143, 143, 0.753);
