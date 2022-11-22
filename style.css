@@ -249,5 +249,6 @@ a{
 }
 
 #tüv{
-  max-width:75px;
+  max-width:60px;
+  vertical-align: middle;
 }
