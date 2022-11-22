@@ -44,6 +44,10 @@ body{
     width: 52px;
     border-radius: 50%;
 }
+#switchfoto{
+    width: 52px;
+    border-radius: 50%;
+}
 .twitch{
     margin: 20px;
     border-radius: 25px 25px 25px 25px;
