@@ -32,39 +32,65 @@ a{
     border-radius: 50%;
 	vertical-align: middle;
 }
+#twitterfoto1{
+	margin-top: 20px;
+   	width: 52px;
+}
 #redditfoto{
     width: 52px;
     border-radius: 50%;
 	vertical-align: middle;
 }
+#redditfoto1{
+    width: 52px;
+}
 #youtubefoto{
     width: 52px;
 	vertical-align: middle;
+}
+#youtubefoto1{
+    width: 52px;
 }
 #twitchfoto{
     width: 52px;
     border-radius: 50%;
 	vertical-align: middle;
 }
+#twitchfoto1{
+    width: 52px;
+    border-radius: 50%;
+}
 #discordlogo{
     width: 52px;
     border-radius: 50%;
 	vertical-align: middle;
+}
+#discordlogo1{
+    width: 52px;
 }
 #mastodonfoto{
     width: 52px;
     border-radius: 50%;
 	vertical-align: middle;
 }
+#mastodonfoto1{
+     width: 52px;
+    border-radius: 50%;
+}
 #switchfoto{
     width: 52px;
     border-radius: 50%;
 	vertical-align: middle;
 }
+#switchfoto1{
+    width: 52px;
+    border-radius: 50%;
+}
 .twitch{
     margin: 20px;
     border-radius: 50%;
 }
+
 .text1{
     background-color: rgba(0, 208, 255, 0.753);
     border-radius: 20px;
