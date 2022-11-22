@@ -28,12 +28,13 @@ a{
     font-size: medium;
 }
 #twitterfoto{
-    margin-top: 20px;
     width: 52px;
+    border-radius: 50%;
 	vertical-align: middle;
 }
 #redditfoto{
     width: 52px;
+    border-radius: 50%;
 	vertical-align: middle;
 }
 #youtubefoto{
@@ -47,6 +48,7 @@ a{
 }
 #discordlogo{
     width: 52px;
+    border-radius: 50%;
 	vertical-align: middle;
 }
 #mastodonfoto{
@@ -61,11 +63,11 @@ a{
 }
 .twitch{
     margin: 20px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 50%;
 }
 .text1{
     background-color: rgba(0, 208, 255, 0.753);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     max-width: 350px;
     margin: 0 auto;
     margin-top: 40px;
@@ -73,6 +75,8 @@ a{
     color: white;
     font-family: Calibri;
     text-align: left;
+    vertical-align: middle;
+    padding: 20px 20px 20px 50px
 }
 .text1pr{
   background-color: rgba(143, 143, 143, 0.753);
@@ -219,3 +223,27 @@ a{
       text-align: left;
     }
   }
+
+
+#swtxt{
+  font-size: 20px;
+}
+
+#dctxt{
+  font-size: 20px;
+}
+
+#socialmedialist{
+  font-size: 25px;
+  list-style: none;
+  padding:0;
+}
+
+#socialmedialist li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.smicon{
+  margin-right: 10px;
+}
