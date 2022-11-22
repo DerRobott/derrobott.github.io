@@ -40,6 +40,10 @@ body{
 #discordlogo{
     width: 52px;
 }
+#mastodonfoto{
+    width: 52px;
+    border-radius: 50%;
+}
 .twitch{
     margin: 20px;
     border-radius: 25px 25px 25px 25px;
