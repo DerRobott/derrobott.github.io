@@ -10,7 +10,9 @@ html{
 body{
     margin: 0;
 }
-
+a{
+vertical-align: middle;
+}
 .footer1{
     display: block;
     text-align: center;
@@ -26,27 +28,34 @@ body{
 #twitterfoto{
     margin-top: 20px;
     width: 52px;
+	vertical-align: middle;
 }
 #redditfoto{
     width: 52px;
+	vertical-align: middle;
 }
 #youtubefoto{
     width: 52px;
+	vertical-align: middle;
 }
 #twitchfoto{
     width: 52px;
     border-radius: 50%;
+	vertical-align: middle;
 }
 #discordlogo{
     width: 52px;
+	vertical-align: middle;
 }
 #mastodonfoto{
     width: 52px;
     border-radius: 50%;
+	vertical-align: middle;
 }
 #switchfoto{
     width: 52px;
     border-radius: 50%;
+	vertical-align: middle;
 }
 .twitch{
     margin: 20px;
