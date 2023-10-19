@@ -527,3 +527,21 @@ button#surprise-button {
     -webkit-text-size-adjust: 100%;
   }
 }
+@media screen and (max-width: 480px) {  
+    .neoko-bio {
+      font-size: 10.5px;
+    }
+  
+    .tobias-bio {
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 460px) {  
+    .neoko-bio {
+      font-size: 10px;
+    }
+  
+    .tobias-bio {
+      font-size: 9.5px;
+    }
+  }
