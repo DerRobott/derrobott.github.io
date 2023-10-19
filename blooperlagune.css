@@ -522,3 +522,8 @@ button#surprise-button {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: 100%;
+  }
+}
