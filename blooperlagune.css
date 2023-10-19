@@ -450,3 +450,36 @@ button#surprise-button {
     }
   }
 }
+@media screen and (max-width: 600px) {
+    .demo-bio {
+      font-size: 12px;
+    }
+  
+    .neoko-bio {
+      font-size: 11.5px;
+    }
+  
+    .tobias-bio {
+      font-size: 10.5px;
+    }
+  
+    .eric {
+      font-size: 11.1px;
+    }
+  
+    .jasmin {
+      font-size: 16px;
+    }
+  
+    .timx {
+      font-size: 15px;
+    }
+  
+    .hadi {
+      font-size: 12px;
+    }
+  
+    .neira-bio {
+      font-size: 11px;
+    }
+  }
