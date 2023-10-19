@@ -414,3 +414,39 @@ button#surprise-button {
 .member-links a{
     color: lightblue;
 }
+
+
+@media (max-width: 600px) {
+  
+    body {
+      font-size: 14px; 
+  
+    .member-box {
+      flex-direction: column; 
+    }
+  
+    .member {
+      width: 90%; 
+      margin: 10px auto; 
+    }
+  
+    .member-avatar img {
+      width: 60px; 
+      height: 60px;
+      margin-left: 10px; 
+    }
+  
+    .member-info h1 {
+      font-size: 16px; 
+    }
+  
+    .member-info h3 {
+      font-size: 12px; 
+    }
+  
+    .image {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  }
+}
