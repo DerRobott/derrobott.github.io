@@ -55,7 +55,7 @@
     <div id="header">
         <img src="../Teamlogo.png" alt="Team logo" id="team-logoa" onclick="changeLogo()">
         <br>
-        <h1 id="Teamname">Team Blooper Lagune</h1>
+        <h1 id="Teamname">team blooper lagune</h1>
     </div>
     <div id="team-photo-container">
         <div id="team-photo">
@@ -74,15 +74,21 @@
                 <h3><strong class="spielertyp">CAPTAIN</strong></h3>
                     <h5 class="tobias-bio">Hello, 
                     I'm Tobias and the captain of Team Blooper Lagune.
-                    I'm currently studying mathematics, and I started playing Splatoon with the second installment and haven't stopped since. For some reason, I ended up as the VShot main (even before it got buffed) and try to manage the sometimes stressful organization of our team.</h5>
+                    I'm currently studying mathematics, and I started playing Splatoon with the second installment and haven't stopped since. For some reason, I ended up as the VShot main (even before it got buffed) and try to manage the sometimes stressful organization of our team.
+                    <a href="#" id="popupLink">Read:</a></h5>
+                    <div id="popup" class="popup">
+                        <span class="close" onclick="closePopup()">&times;</span>
+                        <p>                    I'm Tobias and the captain of Team Blooper Lagune.
+                            I'm currently studying mathematics, and I started playing Splatoon with the second installment and haven't stopped since. For some reason, I ended up as the VShot main (even before it got buffed) and try to manage the sometimes stressful organization of our team.
+                    </div>
             </div>
         </div>
         <div class="member">
             <div class="member-avatar">
-                <img src="https://cdn.discordapp.com/avatars/511071691976212480/4a07248cdf77819ff087e25782bf2f96.webp?size=512" alt="TimX">
+                <img src="tim.png" alt="TimX">
             </div>
             <div class="member-info">
-                <h1>TimX <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/e/e7/S3_Badge_Neo_Splash-o-matic_5.png/64px-S3_Badge_Neo_Splash-o-matic_5.png" alt="NEO Splasho"></h1>
+                <h1>TimX <img id="timweapon" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/e/e7/S3_Badge_Neo_Splash-o-matic_5.png/64px-S3_Badge_Neo_Splash-o-matic_5.png" alt="NEO Splasho"></h1>
                 <h3><strong class="spielertyp">Slayer</strong><br>
                 <div class="timx">Hello, my name is also Tim. My main weapons are the Neo Splash and the Slosher. Besides playing video games, I'm also a hockey fan, and unlike Robot, I have good internet.</div></h3>
             </div>
@@ -102,14 +108,14 @@
                 <img src="https://cdn.discordapp.com/avatars/668821847260790799/3ec559e1a24d743250c09139a1b53e9f.webp?size=512" alt="ELIQUE KANN ICH SPRINGEN?">
             </div>
             <div class="member-info">
-                <h1>Elique <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/1/1c/S3_Badge_Splatterscope_5.png/64px-S3_Badge_Splatterscope_5.png" alt="CHARGER GO BRRR"></h1>
+                <h1>Elique <img id="eliqweapon" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/1/1c/S3_Badge_Splatterscope_5.png/64px-S3_Badge_Splatterscope_5.png" alt="CHARGER GO BRRR"></h1>
                 <h3><strong class="spielertyp">Anchor</strong></h3>
                 <h5 class="eric">Hi, I'm Elique, or Eric :) Even though I'm currently more into the Splatling trip, my love for the Splatterscope will forever be deep in my heart <3. And even if I'm playing poorly, I'm still proud to receive the #1 Super Jump Target medal at the end.</h5>
             </div>
         </div>
         <div class="member">
             <div class="member-avatar">
-                <img src="https://cdn.discordapp.com/avatars/247713705976922113/0a71649923b31febd040460c8a2387e8.webp?size=512" alt="Demo :3">
+                <img src="demo.png" alt="Demo :3">
             </div>
             <div class="member-info">
                 <h1>Demowiz <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/0/08/S3_Badge_N-ZAP_%2785_5.png/64px-S3_Badge_N-ZAP_%2785_5.png" alt="Ich n-zappe dich weg"></h1>
@@ -122,18 +128,49 @@
                 <img src="pbrbt.png" alt="ROBOT INTERNET">
             </div>
             <div class="member-info">
-                <h1>Robot <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/6/66/S3_Badge_Splatana_Wiper_5.png/64px-S3_Badge_Splatana_Wiper_5.png" alt="Schbladana Weipa"></h1>
+                <h1>Robot <img id="robotweapon" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/6/66/S3_Badge_Splatana_Wiper_5.png/64px-S3_Badge_Splatana_Wiper_5.png" alt="Schbladana Weipa"></h1>
                 <h3><strong class="spielertyp">Slayer</strong><br></h3>
-                <h4 id="test">Moin! I'm Robot, and I'm responsible for the memes here (along with Timm). Winning is not important to me; having fun is much more important! But don't you dare tell me to fix my internet, grrr.</h4>
+                <h4 id="test">Moin! I'm Robot, and I'm responsible for the memes here. Winning is not important to me; having fun is much more important! But don't you dare tell me to fix my internet, grrr.</h4>
             </div>
         </div>
+        <div class="member">
+            <div class="member-avatar">
+                <img src="pbvaler.png" alt="Trei Schtringer :3">
+            </div>
+            <div class="member-info">
+                <h1>valerstac <img id="valerweapon" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/f/fe/S3_Badge_Tri-Stringer_5.png/64px-S3_Badge_Tri-Stringer_5.png" alt="Trei Schtringer :D"></h1>
+            <h3><strong class="spielertyp">Anchor</strong><br></h3>
+            <h4 id="test">Hi, I'm Alex/valerstac and I play Splatoon 3 since May 2023. My current main weapons are C-jet and Tri-Stringer (no, this weapon is not bad...)</h4>
+        </div>
+    </div>
+    <div class="member">
+        <div class="member-avatar">
+            <img src="pbfrog.png" alt="frooggee :3">
+        </div>
+        <div class="member-info">
+            <h1>frog <img id="frogweapon" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/8/81/S3_Badge_E-liter_4K_5.png/64px-S3_Badge_E-liter_4K_5.png" alt="Eliter"></h1>
+        <h3><strong class="spielertyp">Flex</strong><br></h3>
+        <h4 id="test"><p id=froga>Next level Salmon Run communication marketer</p> Babybottle down like the syndrome and Eliter rises like an Arab terrorist in the staircase  <img src="1096282510855512195.webp"> </h4>
+    </div>
+    </div>
+    <div class="member" id="invis">
+        <div class="member-avatar">
+            <img src="https://cdn.discordapp.com/avatars/698181146227376129/7e3d7e4ab01d1a920c2940c81cf5fb64.webp?size=512" alt="Mitglied 2">
+        </div>
+        <div class="member-info">
+            <h1>Hadi</h1>
+            <img src="waffenicon2.png" alt="Waffenicon 2">
+        <h3><strong class="spielertyp">Sub</strong><br>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l</h3>
+    </div>
+    </div>
     </div>
     <div class="spacer"></div>
     <h2 id="spielerart">Subs</h2>
     <div class="member-box">
         <div class="member">
             <div class="member-avatar">
-                <img src="https://cdn.discordapp.com/avatars/698181146227376129/7e3d7e4ab01d1a920c2940c81cf5fb64.webp?size=512" alt="Omg, HADII">
+                <img src="hadi.jpg" alt="Omg, HADII">
             </div>
             <div class="member-info">
                 <h1>Hadi
@@ -149,7 +186,7 @@
     <div class="member-box">
         <div class="member">
             <div class="member-avatar">
-                <img src="https://cdn.discordapp.com/avatars/1001217645183508610/a1e43558eb2626532c495bb12fb37884.webp?size=512">
+                <img src="neoko.webp">
             </div>
             <div class="member-info">
                 <h1>Neoko <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/d/d2/S3_Badge_Splatana_Stamper_5.png/64px-S3_Badge_Splatana_Stamper_5.png"></h1>
@@ -169,7 +206,7 @@
         </div>
         <div class="member" id="invis">
             <div class="member-avatar">
-                <img src="https://cdn.discordapp.com/avatars/698181146227376129/7e3d7e4ab01d1a920c2940c81cf5fb64.webp?size=512" alt="Member 2">
+                <img src="hadi.jpg" alt="Member 2">
             </div>
             <div class="member-info">
                 <h1>Hadi</h1>
@@ -184,7 +221,7 @@
     <div class="member-box">
         <div class="member">
             <div class="member-avatar">
-                <img src="https://cdn.discordapp.com/avatars/505856370566889472/edbb7848e82d60af2bc54d1f06413463.webp?size=512" alt="Omg Tömm">
+                <img src="timm.jpg" alt="Omg Tömm">
             </div>
             <div class="member-info">
                 <h1>𝜏ömm <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/7/71/S3_Badge_Forge_Splattershot_Pro_5.png/64px-S3_Badge_Forge_Splattershot_Pro_5.png" alt="PROFI"></h1>
@@ -200,6 +237,17 @@
                 <h1>Sturgeon <img src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/e/e4/S3_Badge_Tower_Control_1000.png/64px-S3_Badge_Tower_Control_1000.png"></h1>
                 <h3><strong class="spielertyp">Map</strong><br>
                 <div class="jasmin">I'm one of the biggest supporters of BL and help BL to victory!</div></h3>
+            </div>
+        </div>
+        <div class="member" id="invis">
+            <div class="member-avatar">
+                <img src="https://cdn.discordapp.com/avatars/698181146227376129/7e3d7e4ab01d1a920c2940c81cf5fb64.webp?size=512" alt="Member 2">
+            </div>
+            <div class="member-info">
+                <h1>Hadi</h1>
+                <img src="waffenicon2.png" alt="Weapon icon 2">
+                <h3><strong class="spielertyp">Sub</strong><br>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l</h3>
             </div>
         </div>
     </div>
@@ -311,5 +359,108 @@
 
         surpriseButton.addEventListener("click", showSurpriseModal);
     </script>
+        </script>
+        <script>
+            let valerClickCount = 0;
+        
+            function valerWeaponClick() {
+                valerClickCount++;
+        
+                if (valerClickCount === 4) {
+                    const valerWeaponImg = document.getElementById('valerweapon');
+                    valerWeaponImg.src = 'https://cdn.wikimg.net/en/splatoonwiki/images/thumb/a/a2/S3_Badge_Custom_Jet_Squelcher_5.png/64px-S3_Badge_Custom_Jet_Squelcher_5.png';
+                    valerClickCount = 0;
+                }
+            }
+        
+            const valerWeaponImg = document.getElementById('valerweapon');
+            valerWeaponImg.addEventListener('click', valerWeaponClick);
+        </script>
+        </script>
+            <script>
+                let robotClickCount = 0;
+            
+                function robotWeaponClick() {
+                    robotClickCount++;
+            
+                    if (robotClickCount === 4) {
+                        const robotWeaponImg = document.getElementById('robotweapon');
+                        robotWeaponImg.src = 'https://cdn.wikimg.net/en/splatoonwiki/images/thumb/7/7f/S3_Badge_Z%2BF_Splatterscope_5.png/64px-S3_Badge_Z%2BF_Splatterscope_5.png';
+                        robotClickCount = 0;
+                    }
+                }
+            
+                const robotWeaponImg = document.getElementById('robotweapon');
+                robotWeaponImg.addEventListener('click', robotWeaponClick);
+            </script>
+            </script>
+                    <script>
+                        let frogClickCount = 0;
+                    
+                        function frogWeaponClick() {
+                            frogClickCount++;
+                    
+                            if (frogClickCount === 4) {
+                                const frogWeaponImg = document.getElementById('frogweapon');
+                                frogWeaponImg.src = 'https://cdn.wikimg.net/en/splatoonwiki/images/thumb/4/4a/S3_Badge_Splat_Dualies_5.png/64px-S3_Badge_Splat_Dualies_5.png';
+                                frogClickCount = 0;
+                            }
+                        }
+                    
+                        const frogWeaponImg = document.getElementById('frogweapon');
+                        frogWeaponImg.addEventListener('click', frogWeaponClick);
+                    </script>
+                                </script>
+                                <script>
+                                    let eliqClickCount = 0;
+                                
+                                    function eliqWeaponClick() {
+                                        eliqClickCount++;
+                                
+                                        if (eliqClickCount === 4) {
+                                            const eliqWeaponImg = document.getElementById('eliqweapon');
+                                            eliqWeaponImg.src = 'https://cdn.wikimg.net/en/splatoonwiki/images/thumb/e/ef/S3_Badge_Heavy_Splatling_Deco_5.png/64px-S3_Badge_Heavy_Splatling_Deco_5.png';
+                                            eliqClickCount = 0;
+                                        }
+                                    }
+                                
+                                    const eliqWeaponImg = document.getElementById('eliqweapon');
+                                    eliqWeaponImg.addEventListener('click', eliqWeaponClick);
+                                </script>
+                </script>
+                <script>
+                    let timClickCount = 0;
+                
+                    function timWeaponClick() {
+                        timClickCount++;
+                
+                        if (timClickCount === 4) {
+                            const timWeaponImg = document.getElementById('timweapon');
+                            timWeaponImg.src = 'https://cdn.wikimg.net/en/splatoonwiki/images/thumb/9/96/S3_Badge_Slosher_5.png/64px-S3_Badge_Slosher_5.png';
+                            timClickCount = 0;
+                        }
+                    }
+                
+                    const timWeaponImg = document.getElementById('timweapon');
+                    timWeaponImg.addEventListener('click', timWeaponClick);
+                </script>
+                <script>
+                function openPopup() {
+                    document.getElementById('popup').style.display = 'block';
+                }
+                
+                // Funktion, um das Popup zu schließen
+                function closePopup() {
+                    document.getElementById('popup').style.display = 'none';
+                }
+                
+                // Event Listener für den Klick auf den blauen Text
+                document.getElementById('popupLink').addEventListener('click', function(event) {
+                    // Verhindert, dass der Link die Seite neu lädt
+                    event.preventDefault();
+                    // Öffnet das Popup
+                    openPopup();
+                });
+                </script>
 </body>
 </html>
