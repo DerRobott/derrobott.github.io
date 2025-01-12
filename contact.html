@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-      <link rel="icon" href="iconn.png" sizes="16x16 32x32" type="image/png">
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DerRobot! :D</title>
+        <link rel="icon" type="image/x-icon" href="assets/S3_Badge_Splatana_Wiper_5.png">
+        <link rel="stylesheet" href="styles.css">
     </head>
-      <title>DerRobot</title>
-    <body style="font-family: sans-serif"></body>
-<body>
-  <div class="navi" id="navii">
-    <a href="index.html">Home</a>
-    <div class="dropdown">
-      <button class="dropbtn">Projects 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="projects.html" >All Projects</a>
-        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2746418515">Blue Timerift Mod</a>
-      </div>
-    </div> 
-    <a href="socialmedia.html">Social Media</a>
-    <a href="contact.html" class="active">Contact</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  </div></a>
-          </nav>
-      </header>
-      <div class="text1">
-        You can contact me via <a href="https://twitter.com/DerRobott">Twitter</a> or Discord! Alternative you can send me an E-mail!      </div>
-        <br>
-        <br>
-        <div class="email">
-        <form action="mailto:derrobott@gmail.com" method="post" enctype="text/plain">
-         <input class="email" type="submit" value="Send me an Email!">
-          </form></div>
-      <footer>
-        <div class=footer1>
-        <a href="https://www.twitter.com/DerRobott"><img id="twitterfoto1" src="twitter-logo.png"></a>
-        <a href="https://mastodon.world/@derrobot"><img id="mastodonfoto1" src="mastodon.png"></a>
-        <a href="https://www.reddit.com/u/DerRobott"><img id="redditfoto1" src="reddit-logo.png"></a>
-        <a href="https://www.youtube.com/derrobot"><img id="youtubefoto1" src="youtube-logo.png"></a>
-        <a href="socialmedia.html"><img id="switchfoto1" src="NintendoSwitch.png"></a>
-        <a href="https://www.twitch.tv/derrobott"><img id="twitchfoto1" src="twitch-logo.png"></a>
-        <a href="socialmedia.html"><img id="discordlogo1" src="discord-logo.png"></a>
-      </div>
-      </footer>
-      <script>
-        function myFunction() {
-          var x = document.getElementById("navii");
-          if (x.className === "navi") {
-            x.className += " responsive";
-          } else {
-            x.className = "navi";
-          }
-        }
-        </script>
+    <body class="light-mode">
+        <header>
+            <div class="nav-container">
+                <nav>
+                    <span class="cursive" font-size="medium">DerRobot</span>
+                    <a href="index.html"><button class="nav-button">Home</button></a>
+                    <a href="https://www.derrobot.net/dilshaan.html"><button class="nav-button">Dilshaan Server</button></a>
+                    <a href="https://www.derrobot.net/BL/WIP.html"><button class="nav-button">Splatoon Team</button></a>
+                    <a href="https://linktr.ee/derrobot"><button class="nav-button">Linktree</button></a>
+                    <button class="nav-button">Contact</button>
+                </nav>
+            </div>
+            <button id="darkModeToggle">☀️</button> 
+        </header>
+    <section class="contact-section">
+        <div class="discord-widget">
+            <h2>Message Me on Discord</h2><br>
+            <div class="status-container">
+                <img id="contactpfp" src="assets/pfp.jpg">
+            </div>
+            <p>Click the button below to send me a message on Discord!</p>
+            <a href="https://discord.com/users/381848843567759360" target="_blank" class="message-button">Message</a>
+        </div>
+    </section>
+</section>    
+<section class="more-info">
+    <div class="outside-topic-section">
+    <div class="outside-box">
+    <h1 class="cursive" id="outside">Not having Discord? No problem!</h1>
+    <div class="info-box">
+        <p>You can also contact me via Bluesky or E-mail!<br>
+            <a href="https://www.bsky.app/profile/derrobot.net">Bluesky Profile</a> E-Mail: kontakt@derrobot.net
+        </div><br>    </div>   
+    </section>
+        <section class="more-info">
+        <div class="info-box">
+            <p>Also if you want to send me a friend request on the Switch: <a href="https://lounge.nintendo.com/friendcode/7994-9766-9373/DH8b6xv5nG"> Friend Request Link</a>
+            </div> 
+    </section>  
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 DerRobot. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.twitter.com/derrobott">Twitter</a>
+                <span>|</span>
+                <a href="https://www.bsky.app/profile/derrobot.net">Bluesky</a>
+                <span>|</span>
+                <a href="https://www.sendou.ink/u/derrobot">Sendou.Ink</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

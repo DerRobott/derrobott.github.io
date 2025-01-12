@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Draggon AG</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            height: 100vh;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container" style="position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: black;">
+        <video id="intro-video" style="display: none; width: 100%; height: 100%; object-fit: cover;">
+            <source src="Portal 2 Wheatleys kindest offer!.mp4" type="video/mp4">
+            Your browser does not support the video.
+        </video>
+        <button id="play-button" style="padding: 20px; font-size: 18px; cursor: pointer;">Are you sure that you want to join Dilshaans Discord Server? If yes, press this button</button>
+    </div>
+    <script>
+        const video = document.getElementById('intro-video');
+        const button = document.getElementById('play-button');
+        const container = document.getElementById('video-container');
+
+        button.addEventListener('click', () => {
+            button.style.display = 'none';
+            video.style.display = 'block';
+            video.play().then(() => {
+                console.log("Video is playing.");
+            }).catch((error) => {
+                console.error("Error playing video:", error);
+            });
+
+            video.addEventListener('ended', () => {
+                console.log("Video ended. Redirecting...");
+                window.location.href = "https://discord.gg/HKqwFk2DD9";
+            });
+        });
+    </script>
+</body>
+
+</html>
